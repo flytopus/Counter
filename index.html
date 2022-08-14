@@ -11,6 +11,7 @@
 
         <script type="text/javascript">
             function callback(response) {
+                console.log("response:" + response.value);
                 document.getElementById('visits').innerText = response.value;
             }
         </script>
